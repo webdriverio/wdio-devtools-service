@@ -68,7 +68,6 @@
   },
   "dependencies": {
     "chrome-remote-interface": "^0.25.3",
-    "find-process": "^1.1.0",
     "node-netstat": "^1.4.2"
   }
 }
