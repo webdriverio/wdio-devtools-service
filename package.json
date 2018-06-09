@@ -24,7 +24,7 @@
   "scripts": {
     "build": "run-s clean compile",
     "ci": "run-s test",
-    "clean": "rm -rf ./build ./coverage",
+    "clean": "rimraf ./build ./coverage",
     "compile": "babel lib -d build --source-maps inline",
     "eslint": "eslint ./lib ./test ./*.js",
     "release": "run-s release:patch",
@@ -54,6 +54,7 @@
     "jest": "^21.2.1",
     "np": "^2.16.0",
     "npm-run-all": "^4.1.2",
+    "rimraf": "^2.6.2",
     "shelljs": "^0.7.8"
   },
   "jest": {
